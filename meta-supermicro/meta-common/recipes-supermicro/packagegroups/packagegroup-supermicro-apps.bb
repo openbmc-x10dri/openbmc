@@ -23,7 +23,7 @@ RPROVIDES:${PN}-system += "virtual-obmc-system-mgmt"
 
 SUMMARY:${PN}-chassis = "Supermicro Chassis"
 RDEPENDS:${PN}-chassis = " \
-        x86-power-control \
+        phosphor-state-manager \
         obmc-host-failure-reboots \
         "
 
